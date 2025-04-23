@@ -1,0 +1,22 @@
+.form {
+    font-family: "Jua", sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+}
+
+.form input{
+    font-family: "Jua", sans-serif;
+    font-size: 0.6em;
+}
+
+.form .input:focus{
+    background: pink;
+}
+
+.form a{
+    font-size: 0.6em;
+    text-decoration: none;
+    color:blue
+}

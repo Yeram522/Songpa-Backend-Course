@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-17</title>
+    <style>
+        .image {
+            width: 300px;
+            height: 250px;
+            margin-top: 16px;
+            margin-left: 16px;
+            border-radius: 8px;
+
+
+            background-image: url('./sample/image4.png');
+
+            position: relative;
+        }
+
+        .circle {
+            position: absolute;
+
+            width: 32px;
+            height: 32px;
+
+            border-radius: 999px;
+
+            background-color: #D9D9D9;
+
+            top: 16px;
+            left: 250px;
+        }
+
+        .tag {
+            position: absolute;
+            width: 300px;
+            height: 56px;
+            top: 194px;
+
+            background-color: hsla(0, 0%, 0%, 0.6);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+
+        }
+
+        p {
+            position: absolute;
+            margin: 0;
+            left: 8px;
+        }
+
+        .title {
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #FFFFFF;
+            top: 10px;
+        }
+
+        .name {
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #D1D1D1;
+
+            top:34px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image">
+        <div class="circle"></div>
+        <div class="tag">
+            <p class='title'>새로운 시작!</p>
+            <p class='name'>김작가</p>
+        </div>
+    </div>
+</body>
+
+</html>

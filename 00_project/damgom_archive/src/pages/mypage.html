@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/mypage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chewy&family=Gamja+Flower&family=Jua&family=Rubik+Spray+Paint&display=swap"
+        rel="stylesheet">
+    <title>my page</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="left">
+            <img src="../../public/strawberry.png" width="20px" height="20px"><a href="home.html">Free Nongdam</a>
+        </div>
+        <div class="right">
+            <button name="signIn" id="header_btn"><a href="home.html">로그아웃</a></button>
+        </div>
+    </div>
+
+    <!--contents-->
+    <div  style="display: inline-flex; width: 100%;">
+        <div class = "thumbs_box" style="background-color: skyblue; width: 50%; margin-right: 20px;">
+            <h4 name = "sentence" class="title" style="text-align: center;">Find Your Favorite Nongdam Image</h4>
+            <!-- tag -->
+            <p class="m_title">🔖 내 모든 태그 보기</p>
+            <div>
+                <button class="tag" style="background-color: pink; border-style: none;">로봇</button>
+                <button class="tag" style="background-color: violet; border-style: none;">놀림</button>
+                <button class="tag" style="background-color: gainsboro; border-style: none;">월요일</button>
+                <button class="tag" style="background-color: cyan; border-style: none;">졸려</button>
+            </div>
+            <!-- contents -->
+            <div class = "contents" style="display: inline-flex; padding: 20px;">
+                <div class = "content" style="padding-bottom: 10px;">
+                    <img src="../../public/image.jpg" alt="사진을 불러오는데 실패했습니다." width="300" height="180">
+                    <div>
+                        <button class="tag" style="background-color: brown; border-style: none;">킹받</button>
+                        <button class="tag" style="background-color: cyan; border-style: none;">민트초코</button>
+                    </div>
+                </div>
+
+                <div class = "content">
+                    <img src="../../public/image2.jpg" alt="사진을 불러오는데 실패했습니다." width="300" height="180">
+                    <div style="padding-bottom: 10px;">
+                        <button class="tag" style="background-color: pink; border-style: none;">기쁨</button>
+                        <button class="tag" style="background-color: mediumslateblue; border-style: none;">주말</button>
+                        <button class="tag" style="background-color: olivedrab; border-style: none;">침대</button>
+                        <button class="tag" style="background-color: antiquewhite; border-style: none;">휴식</button>
+                    </div>
+                </div>
+
+                <div class = "content">
+                    <img src="../../public/image3.jpg" alt="사진을 불러오는데 실패했습니다." width="300" height="180">
+                    <div style="padding-bottom: 10px;">
+                        <button class="tag" style="background-color: khaki; border-style: none;">공부</button>
+                        <button class="tag" style="background-color: hotpink; border-style: none;">열정</button>
+                        <button class="tag" style="background-color: whitesmoke; border-style: none;">파이팅</button>
+                        <button class="tag" style="background-color: navajowhite; border-style: none;">시험</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "uploadbox" style="background-color: aliceblue;">
+            <h4 name="uploadtitle"class="title" style="text-align: center;">Upload Image</h4>
+            <div style="background-color: beige; margin-left: 10px;margin-right: 10px;">
+                <p style="text-align: center;">📥</p>
+                <h6 style="text-align: center;">Drage files here</h6>
+                <br>
+                <input type="file" value="Add File">
+                <button>Add URL</button>
+                <br>
+                <br>
+            </div>
+            <br>
+            <div>
+                <textarea name="text" id="text" placeholder="Please write tags split with ,(coma)" rows="10" cols="40"
+                style="margin: 15px;"></textarea>
+            </div>
+            <br>
+            <button>Upload</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

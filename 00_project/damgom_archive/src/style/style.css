@@ -1,0 +1,98 @@
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-between;/*양쪽 끝에 붙이고 동일한 간격*/
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right{
+    display: flex;
+    gap: 10px;
+}
+
+#header_btn {
+    padding: 3px 5px;
+    font-size: 1em;
+    cursor: pointer;
+    background:beige;
+    border: none;
+}
+
+#header_btn:active{
+    background-color :pink;
+}
+
+#header_btn:hover{
+    background-color :pink;
+}
+
+.header .left a{
+    font-family: "Chewy", system-ui;
+    font-size: 1.7em;
+    font-weight: 500;
+    font-style : normal;
+    text-decoration: none;
+    color: #1F85DE;
+}
+
+#header_btn a{
+    font-family: "Jua", sans-serif;
+    text-decoration: none;
+    color: #1F85DE;
+}
+
+/*Font*/
+.title{
+    font-family: "Rubik Spray Paint", system-ui;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.m_title {
+    display: inline-block;  /* 요소 크기를 글자에 맞춤 */
+    background-color: lemonchiffon;
+    padding: 1px 5px;       /* 글자와 배경 사이 여백 */
+    font-family: "Jua", sans-serif;
+    font-size: 1.2em;        /* 글자 크기도 커질 수 있음 */
+    border-radius: 8px;      /* 둥근 테두리 */
+    color: #1F85DE;
+}
+
+/*tag component*/
+.tag{
+    display: inline-block;
+    border-style: none;
+    padding: 1px 15px;       /* 글자와 배경 사이 여백 */
+    border-radius: 5px;
+    font-family: "Gamja Flower", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: hsla(0,0%,24%,0.5)
+}
+
+.tag:hover{
+    color: black;
+}
+
+/*contents*/
+.contents{
+    display: flex;
+    gap:10px ;
+}
+
+.content img{
+    border-radius: 10px;
+}
+
+
+
+

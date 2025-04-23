@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-8</title>
+    <style>
+        div {
+            width: 160px;
+            height: 240px;
+            border-radius: 4px;
+        }
+
+        .background {
+            margin-top: 16px;
+            margin-left: 16px;
+            background: #CA785C;
+        }
+
+        .image {
+            background-image: url(./sample/image2.png);
+            background-repeat: no-repeat;
+
+            position: relative;
+            /* 기준이 되는 컨테이너 */
+        }
+
+        p {
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #FFFFFF;
+            position: absolute;
+            /* .image 기준으로 위치 설정 */
+            margin: 0;
+        }
+
+        .title {
+            bottom: 45px; /* 아래에서 8px */
+            left: 8px; /* 왼쪽에서 16px */
+        }
+
+        .name {
+            bottom: 10px; /* 아래에서 8px */
+            left: 8px; /* 왼쪽에서 16px */
+        }
+
+        .date{
+            bottom: 10px; /* 아래에서 8px */
+            right: 8px; /* 왼쪽에서 16px */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="image">
+            <p class="title">인테리어란?</p>
+            <p class="name">김작가</p>
+            <p class="date">2025.01.01</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
