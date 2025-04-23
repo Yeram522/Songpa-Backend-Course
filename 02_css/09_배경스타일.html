@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rebeccapurple;
+            background: rgb(20,40,200);
+            background: rgba(20,40,200,0.6);
+            background: hsl(120,50%,50%);
+            background: hsla(120,50%,50%,0.4);
+
+            background: #d03e137b;
+        }
+        #div-bg{
+            width: 50%;
+            background: wheat;
+        }
+        .div-test{
+            background-color: white;
+
+            padding: 20px;
+            width: 20%;
+            border: 5px dashed black;
+            float: right;
+        }
+
+        #div1{
+            background-clip: border-box;
+        }
+
+        #div2{
+            background-clip: padding-box;
+        }
+
+        #div3{
+            background-clip: content-box;
+        }
+
+
+        .clearfloat{
+            clear: right;  /* 플로팅 된 요소의 영향을 받아 어느쪽 (오른쪽, 왼쪽, 양쪽)으로부터 떨어져야 하는지 지정  */
+        }
+
+        #bg-img{
+            width: 70%;
+            height: 1600px;
+            border: 4px solid red;
+            background-image: url("sample/image/flower1.PNG");
+
+            background-repeat: no-repeat;
+
+            background-size: cover;
+            background-size: contain;
+            background-size: auto;/*원본 크기 사용*/
+
+            background-attachment: fixed;  /* 스크롤 하면 이미지가 고정되어있다. */
+            background-attachment: scroll; /* 디폴트 */
+
+            background-position: 50% 50%; /* 가운데 정렬 */
+            background-position: 30px 50px; /* 위치 조정 가능 */
+            background-position: right; /* 우측 정렬 */
+        }
+    </style>
+</head>
+<body>
+    <h1>배경색과 배경이미지</h1>
+    <a href="http://www.w3school.com/colors/colors_names.asp" target="_blank">
+        색상명 참조 사이트로 이동
+    </a>
+
+    <hr>
+    <h3>div배경 테스트</h3>
+    <pre>div 영역을 설정하는 경우 배경색을 지정하기 위해서는 div에 배경색을 별도로 지정해야한다.</pre>
+    <div id="div-bg">
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </div>
+
+    <h3>배경 적용 범위 조정</h3>
+    <pre>div 영역의 배경 적용 범위를 지정할 때 background-clip 속성을 사용한다.</pre>
+    <div class="div-test" id="div1">
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </div>
+    <div class="div-test" id="div2">
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </div>
+    <div class="div-test" id="div3">
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </div>
+
+    <hr class="clearfloat">
+    <h3>배경 이미지 테스트</h3>
+    <pre>background-image 속성을 이용하여 배경 사진을 넣을 수 있다.
+        사진 크기에 따라 자동 반복하여 이미지가 나타난다.
+    </pre>
+    <div id="bg-img"></div>
+
+</body>
+</html>
