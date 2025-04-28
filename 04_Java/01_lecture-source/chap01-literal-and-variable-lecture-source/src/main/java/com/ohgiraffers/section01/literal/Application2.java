@@ -67,7 +67,7 @@ public class Application2 {
 //        System.out.println("hello"%"world");
 
         /* 3-2. 문자열과 다른 형태의 값 연산 */
-        /* 문자열과의 연산은 '*' 연산만 가능하다. */
+        /* 문자열과의 연산은 '+' 연산만 가능하다. */
         /* 3-2-1. 문자열과 정수의 연산*/
         System.out.println("helloworld" + 123);
         /* 3-2-2. 문자열과 실수의 연산*/
