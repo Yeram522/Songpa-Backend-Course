@@ -48,7 +48,6 @@ public class A_if {
         int num = sc.nextInt();
 
         if(num > 0){
-
             if(num % 2 == 0){
                 System.out.println("입력하신 숫자는 양수이면서 짝수입니다.");
             }
