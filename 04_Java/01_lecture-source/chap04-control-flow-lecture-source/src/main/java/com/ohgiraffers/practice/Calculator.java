@@ -19,7 +19,7 @@ public class Calculator {
     }
 
     public int sumTwoNumber(int a, int b){
-        return a+ b;
+        return a + b;
     }
 
     public int minusTwoNumber(int a, int b){

@@ -5,7 +5,7 @@ public class A_break {
     public void testSimpleBreakStatement(){
         /* comment. break문 사용에 대한 흐름을 이해하고 적용할 수 있다.*/
         /* break는 반복문 내에서 사용한다.
-        *  해당 반복문을 빠져 나올 때 사용하며, 반복문의 조건문 판단ㅇ '
+        *  해당 반복문을 빠져 나올 때 사용하며, 반복문의 조건문 판단 결과와 상관 없이
         *  반복문을 빠져나올 떄 사용한다.
         *  일반적으로 if(조건식) {break;} 처럼 사용된다.
         *  단, switch문은 반복문이 아니지만 예외적으로 사용된다.
