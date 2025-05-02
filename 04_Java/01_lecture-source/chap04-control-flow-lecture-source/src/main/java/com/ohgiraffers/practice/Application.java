@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice;
 
+import java.util.Scanner;
+
 public class Application {
     public static void main(String[] args) {
 
@@ -30,7 +32,6 @@ public class Application {
         System.out.println("\"Hello World\"에서 'o'의 개수는 : " + soper.countCharacter("Hello World",'o'));
 
         System.out.println("\"Hello World\"를 뒤집은 결과는 : " + soper.reverseString("Hello World"));
-
 
 
     }

@@ -12,8 +12,6 @@ public class practice2 {
         }
         System.out.println(sum);
 
-        System.out.println();
-
         // 2.
         Scanner sc = new Scanner(System.in);
         System.out.print("정수를 입력하세요 : ");
@@ -31,10 +29,8 @@ public class practice2 {
             System.out.println("7 * " + i + " = " + (7*i));
         }
 
-        System.out.println();
 
         // 4.
-        sc = new Scanner(System.in);
         System.out.print("정수를 입력하세요 : ");
         num = sc.nextInt();
         sum = 0;
@@ -42,11 +38,9 @@ public class practice2 {
             sum += (i%2 == 0)? i : 0;
         }
         System.out.println("1부터 " + num + "까지 짝수의 합 : " + sum);
-        System.out.println();
 
 
         // 5.
-        sc = new Scanner(System.in);
         System.out.print("문자열을 입력하세요 : ");
         String word = sc.nextLine();
         for(int i = 0; i < word.length(); i++){
@@ -63,7 +57,6 @@ public class practice2 {
         System.out.println();
         
         // 7.
-        sc = new Scanner(System.in);
         System.out.println("정수를 입력하세요: ");
         num = sc.nextInt();
 
