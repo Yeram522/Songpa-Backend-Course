@@ -53,7 +53,7 @@ public class Application1 {
         *  런타임 당시 실제 객체가 가진 오버라이딩된 메소드로 바인딩이 바뀌어 동작하는 것을 의미한다.
         * */
 
-        System.out.println("동정바인딩 확인 =================");
+        System.out.println("동적바인딩 확인 =================");
         a1.cry();
         a2.cry();
 

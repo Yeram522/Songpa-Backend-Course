@@ -30,3 +30,9 @@ int DEFAULT_SPAWN_LIMIT = 5;
 행동을 할 수 없다고 뜹니다!!
 ![](./image/app3.png)
 
+<br>
+
+### 3. Application 클래스 리팩토링
+Application에 구현 코드가 너무 많아서, DragonMaker 클래스를 새로 생성하여
+메서드를 불러오는 형식으로 수정하였습니다.
+
